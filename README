@@ -1,0 +1,57 @@
+xsel
+------------------------------------------
+XSel is a command-line program for getting and setting the contents of 
+the X selection. Normally this is only accessible by manually 
+highlighting information and pasting it with the middle mouse button.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libX11_6-1.1.5-2
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-1
+  automake1.8-1.8.5-4
+  binutils-20080624-2
+  cygport-0.4.3-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.6a-1
+  libXt-devel-1.0.5-2
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.vergenet.net/~conrad/software/xsel/
+
+Canonical download:
+  http://www.vergenet.net/~conrad/software/xsel/download/
+
+-------------------------------------------
+
+Build instructions:
+  unpack xsel-1.2.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./xsel-1.2.0-X.cygport all
+
+This will create:
+  /usr/src/xsel-1.2.0-X-src.tar.bz2
+  /usr/src/xsel-1.2.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+
+------------------
+
+Port Notes:
+
+----- version 1.2.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
