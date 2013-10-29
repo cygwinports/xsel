@@ -1,0 +1,11 @@
+NAME="xsel"
+VERSION=1.2.0
+RELEASE=2
+CATEGORY="X11"
+SUMMARY="X selection tool"
+DESCRIPTION="XSel is a command-line program for getting and setting the
+contents of the X selection. Normally this is only accessible by manually
+highlighting information and pasting it with the middle mouse button."
+HOMEPAGE="http://www.kfish.org/software/xsel/"
+SRC_URI="http://www.kfish.org/software/xsel/download/${NAME}-${VERSION}.tar.gz"
+PATCH_URI="1.2.0-posix-siglongjmp.patch"
